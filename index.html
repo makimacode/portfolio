@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <!-- TITLE -->
+    <title>Portfolio Mastroti</title>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matías Mastroti">
+    <meta name="description" content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. ">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Mi portafolio">
+    <meta property="og:description" content="Este es mi portafolio personal. Aquí verás mi perfil de programador y mis últimos proyectos.">
+  
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon_io/site.webmanifest">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!-- JS -->
+    <script defer src="script.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0ce218d0bf.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ** ----- Header ----- **-->
+
+    <header id="header">
+
+        <!-- ** ----- Nav - Menu ----- ** -->
+
+        <div class="container">
+
+            <nav class="container">
+
+                <h1 class="main-title"><span class="main-title blue">M</span>astroti</h1>
+
+                <ul id="side-menu">
+
+                    <li>
+                        <a href="#header">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">Acerca de</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio">Portafolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+
+<!--                     
+
+                    <li>
+                        <div class="toggle-switch">
+                            <span>EN</span>
+                            <input type="checkbox" class="toggler" checked>
+                            <span>ES</span>
+                        </div>
+                    </li> -->
+
+                    <li>
+                        <div class="toggle-switch">
+                            <span>Light</span>
+                            <input type="checkbox" class="toggler" id="modeToggler">
+                            <span>Dark</span>
+                        </div>
+                    </li>
+
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+
+                <div class="typed-container">
+                    <div class="typed-out">Desarrollador Frontend</div>                
+                </div>
+
+                <h2><span class="blue">Matías Mastroti</span></h2>
+
+                <div class="typed-container">
+                    <div class="typed-out typed-out--second">¡Vamos a trabajar juntos!</div>                
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ** ----- Main ----- ** -->
+
+    <main>
+
+        <!-- ** ---- About ---- ** -->
+
+        <section id="about">
+
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="../img/about.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="subtitle">Sobre mí</h2>
+
+                        <p class="about-paragraph">
+                            Soy un apasionado de la tecnología y la programación. Me encanta resolver problemas complejos y crear soluciones innovadoras que puedan mejorar la vida de las personas.
+                            Buena comprensión de las estructuras de datos y los algoritmos.
+                            Capacidad para trabajar en equipo y colaborar con otros miembros del equipo de desarrollo.
+                            Habilidad para aprender rápidamente y aplicar nuevos conceptos y tecnologías.
+                            Interés por mantenerse al día con las últimas tendencias y avances en tecnología.
+                            Metas profesionales: Mi objetivo a largo plazo es convertirme en un experto en mi campo y contribuir al desarrollo de soluciones innovadoras que puedan hacer una diferencia positiva en el mundo. Quiero trabajar en proyectos interesantes y desafiantes y colaborar con un equipo de personas talentosas y apasionadas.
+                            Creo que mi enfoque en la resolución de problemas, mi pasión por la tecnología y mi habilidad para aprender rápidamente me hacen un candidato fuerte para cualquier proyecto de programación. Estoy emocionado de continuar mi carrera y ver a dónde me llevará.
+                        </p>
+
+                        <div class="tab-title">
+                            <p class="tab-link">Habilidades</p>
+                        </div>
+
+                        <div class="tab-content">
+                            <p class="blue">Lenguajes</p>
+                            <ul>
+                                <li>
+                                    <p>HTML</p>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                </li>
+                               
+                               
+                               
+                           
+                           
+                            </ul>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <p class="blue">Frameworks & Librerías</p>
+                            <ul>
+                                <li>
+                                    <p>React.js</p>
+                                </li>
+                                <li>
+                                    <p>Bootstrap</p>
+                                </li> 
+                                <li>
+                                    <p>FIREBASE</p>
+                                    
+                                </li>
+                                 <li>
+                                <p>TAILWIND CSS</p>
+                            </li>
+                            <li>
+                                <p>VueJS</p>
+                            </li>
+                             <li>
+                                <p>AngularJS</p>
+                            </li>
+                             <li>
+                                    <p>Jquery</p>
+                                </li>
+                              <li>
+                                    <p>SASS</p>
+                                </li>
+                            </ul>
+                        </div>  
+
+                        <div class="tab-content">
+                            <p class="blue">Control de Versiones</p>
+                            <ul>
+                                <li>
+                                    <p>GIT</p>
+                                </li>                                
+                                <li>
+                                    <p>GitHub</p>
+                                </li>
+                               
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+  
+
+        <!-- ** ----- Portfolio ----- ** -->
+
+        <section id="portfolio">
+
+            <div class="container">
+
+                <h2 class="subtitle">Mis Proyectos</h2>
+        
+
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="../img/ecommerce.png" alt="work-1">
+
+                        <div class="layer">
+
+                            <h3>Ecommerce</h3>
+
+                            <p>HTML - CSS - JS</p>
+
+                            <div>
+                                <a href="https://github.com/makimacode/ecommerce2" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="https://makimacode.github.io/ecommerce2/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="work">
+                        <img src="../img/cryptolanding.png" alt="work-2">
+
+                        <div class="layer">
+
+                            <h3>Crypto landing page</h3>
+
+                            <p>HTML - CSS - JS</p>
+
+                            <div>
+                                <a href="https://github.com/makimacode/cryptolanding" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="https://makimacode.github.io/cryptolanding/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="work">
+                        <img src="../img/weatherapp.png" alt="work-3">
+
+                        <div class="layer">
+
+                            <h3>Easybank Landing Page</h3>
+
+                            <p>HTML - CSS - SASS - JS</p>
+
+                            <div>
+                                <a href="https://github.com/makimacode/weatherapp" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="https://github.com/makimacode/weatherapp" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                    <div class="work">
+                        <img src="../img/moviesinfo.png" alt="work-3">
+
+                        <div class="layer">
+
+                            <h3>Movies info</h3>
+
+                            <p>HTML - CSS</p>
+
+                            <div>
+                                <a href="https://github.com/makimacode/moviesinfo" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="https://github.com/makimacode/moviesinfo" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                    <div class="work">
+                        <img src="../img/todolist.png" alt="work-3">
+
+                        <div class="layer">
+
+                            <h3>E-commerce Product Page</h3>
+
+                            <p>HTML - SCSS - JS</p>
+
+                            <div>
+                                <a href="https://github.com/makimacode/todolist" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="https://github.com/makimacode/todolist" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                    <div class="work">
+                        <img src="../img/japanese-quiz.png" alt="work-3">
+
+                        <div class="layer">
+
+                            <h3>Japanese japanese-quiz</h3>
+
+                            <p>HTML - CSS - JS -REACT -TAILWIND</p>
+
+                            <div>
+                                <a href="https://github.com/makimacode/learn-japanese-quiz" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="https://github.com/makimacode/learn-japanese-quiz" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ** ----- Contact ----- ** -->
+
+        <section id="contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="contact-left">
+
+                        <h2 class="subtitle">Contacto</h2>
+
+                        <div class="social-icons">
+                            <P class="email">Email: mastroti31@gmail.com</P>
+
+                            <a href="https://github.com/makimacode" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+
+
+                            <a href="mailto:mastroti31@gmail.com" aria-label="mail"><i class="fa-solid fa-envelope"></i></a>
+
+                        </div>
+
+                        <a href="../pdf/CvMastroti.pdf" target="_blank" class="btn">Descargar CV <i class="fa-solid fa-download"></i></a>
+
+                    </div>
+
+                    <div class="contact-right">
+
+                        <!-- <form name="contact" netlify>
+
+                            <input type="text" name="Name" placeholder="Nombre" required>
+
+                            <input type="email" name="email" placeholder="Email" required>
+
+                            <textarea name="Message" rows="6" placeholder="Mensaje" required></textarea>
+
+                            <button type="submit" class="btn">Enviar </button>
+
+                        </form> -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p>&copy; Todos los derechos reservados</p>
+                <p>para Matías Mastroti</p>
+            </div>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
